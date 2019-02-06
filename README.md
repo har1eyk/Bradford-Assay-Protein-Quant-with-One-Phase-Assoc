@@ -3,7 +3,7 @@ The Bradford method is a popular biochemical technique for determining the conce
 
 A common kit like the Thermo Fisher Scientific (cat. no. 23236, http://bit.ly/2DaYy7C) uses the Coomassie Brilliant Blue G-250 dye molecule. In the presence the protein, a conformational state in the dye is stabilized resulting in a color change. The color change is proportional to the amount of protein and can be detected by a spectrophotometer reading absorbance at 595 nm. 
 
-##[PlyCB](http://www.rcsb.org/structure/4F87) reacts with Dye
+## [PlyCB](http://www.rcsb.org/structure/4F87) reacts with Dye
 ![Image of Bradford](https://raw.githubusercontent.com/har1eyk/Bradford-Assay-Protein-Quant-with-One-Phase-Assoc/master/images/Bradford.assay.figure.jpg)
 
 
