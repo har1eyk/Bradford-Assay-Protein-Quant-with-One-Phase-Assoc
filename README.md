@@ -9,9 +9,17 @@ A common kit like the Thermo Fisher Scientific (cat. no. 23236, http://bit.ly/2D
 
 Precise protein concentration is an important characteristic for downstream experiments like ELISAs, protein-protein interactions and isothermal titration calorimetry.
 
-Although the dye and protein react in a proportional manner and can be characterized with a linear model, high concentrations of protein will stabilize most dye molecules causing saturation. This is true of BSA standards diluting to 2000ug/ml as the protocol recommends. The curve is better approximated by a non-linear regression method.
+Although the dye and protein react in a proportional manner and can be characterized with a linear model, high concentrations of protein will stabilize most dye molecules causing saturation. Saturation causes a bowing in the data, and can be seen with the bovin serum albumin (BSA) standards recommended by the kit. The curve is better approximated by a non-linear regression method.
 
 # Non-linear Regression One Phase Association
+I was taught to use a linear model as it's simple and accurate for lower protein concentrations. However, a linear model results in greater error when calculating unknown high protein concentrations. 
+
+Other non-linear regression models like second-order polynomials can approximate the data but also can fail at the lower or higher ends. Growth curves or enzymatic models fit the data to an "S" curve. 
+
+I recently discovered that a [one phase association](https://www.graphpad.com/guides/prism/7/curve-fitting/index.htm?reg_exponential_association.htm) model best approximates all standard-BSA protein concentrations recommended by the provider.
+Y=(Y0 - Plateau)*exp(-K*X) + Plateau
+![Wolfram Alpha One Phase Assocation](https://raw.githubusercontent.com/har1eyk/Bradford-Assay-Protein-Quant-with-One-Phase-Assoc/master/images/one.phase.association.equation.wa.jpg)
+WA source, https://www.wolframalpha.com/input/?i=Solve%5BY%3D(Y0+-+P)*e%5E(-K*X)+%2B+P,+X%5D
 
 
 Protein concentration is an important characteristic for downstream experiments like ELISAs, protein-protein interactions and isothermal titration calorimetry. 
