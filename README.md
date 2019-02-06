@@ -25,9 +25,9 @@ WA link: https://www.wolframalpha.com/input/?i=Solve%5BY%3D(Y0+-+P)*e%5E(-K*X)+%
 ## One Phase Association Best Describes the Data
 The data was plotted and model with linear (lilac), polynomial (blue) and one-phase association models (black).
 
-+-------+---------+
+
 | mg/ml |   abs   |
-+-------+---------+
+|-------|---------|
 |  2000 | 1.07685 |
 |  1500 |  0.9741 |
 |  1000 |  0.8432 |
@@ -36,7 +36,6 @@ The data was plotted and model with linear (lilac), polynomial (blue) and one-ph
 |   250 |  0.2928 |
 |   125 |  0.1696 |
 |    25 | 0.02865 |
-+-------+---------+
 
 Data modeling down in GraphPad Prism. The one phase association was constrained to 0 as the background was subtracted from the absorbance values.
 
@@ -50,9 +49,9 @@ Solving the one-phase equation by hand for x I obtained:
 
 However, Wolfram Alpha has a different solution (above). Both solutions should be similar but there are differences for which I cannot yet account.
 
-+-------+---------+--------+--------+
+
 | mg/ml |   abs   | HK_eqn | WA_eqn |
-+-------+---------+--------+--------+
+|-------|---------|--------|--------|
 |  2000 | 1.07685 |   2100 |   2006 |
 |  1500 |  0.9741 |   1472 |   1431 |
 |  1000 |  0.8432 |   1049 |   1028 |
@@ -61,13 +60,9 @@ However, Wolfram Alpha has a different solution (above). Both solutions should b
 |   250 |  0.2928 |    242 |    239 |
 |   125 |  0.1696 |    135 |    134 |
 |    25 | 0.02865 |     28 |     28 |
-+-------+---------+--------+--------+
 
 The data and Excel equations can be found in the Excel workbook in this repository.
 
 ## Future Directions
 1. In the future I'd like to use scipy [optimize curve fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) to conduct least squares so that Excel and GraphPad will be unnecessary.
 1. I'd also like to explore [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3164080/) and linearization for the lower ends of the quantification
-
-
-
