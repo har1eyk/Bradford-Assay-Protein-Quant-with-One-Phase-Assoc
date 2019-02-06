@@ -19,7 +19,8 @@ Other non-linear regression models like second-order polynomials can approximate
 I recently discovered that a [one phase association](https://www.graphpad.com/guides/prism/7/curve-fitting/index.htm?reg_exponential_association.htm) model best approximates all standard-BSA protein concentrations recommended by the provider.
 Y=(Y0 - Plateau)*exp(-K*X) + Plateau
 ![Wolfram Alpha One Phase Assocation](https://raw.githubusercontent.com/har1eyk/Bradford-Assay-Protein-Quant-with-One-Phase-Assoc/master/images/one.phase.association.equation.wa.jpg)
-WA source, https://www.wolframalpha.com/input/?i=Solve%5BY%3D(Y0+-+P)*e%5E(-K*X)+%2B+P,+X%5D
+
+WA source, <https://www.wolframalpha.com/input/?i=Solve%5BY%3D(Y0+-+P)*e%5E(-K*X)+%2B+P,+X%5D>
 
 
 Protein concentration is an important characteristic for downstream experiments like ELISAs, protein-protein interactions and isothermal titration calorimetry. 
