@@ -23,7 +23,7 @@ Y=(Y0 - Plateau)*exp(-K*X) + Plateau
 WA link: https://www.wolframalpha.com/input/?i=Solve%5BY%3D(Y0+-+P)*e%5E(-K*X)+%2B+P,+X%5D
 
 ## One Phase Association Best Describes the Data
-The data was plotted and model with linear (lilac), polynomial (blue) and one-phase association models (black).
+The data was plotted and modeled with linear (lilac), polynomial (blue) and one-phase association models (black).
 
 
 | mg/ml |   abs   |
