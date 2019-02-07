@@ -47,6 +47,8 @@ The purpose of creating a standard curve is so that unknown protein concentratio
 Solving the one-phase equation by hand for x I obtained:
 -[ln((y0+p-y)/p))]*1/k = x
 
+![HK.solving.opa.x](https://raw.githubusercontent.com/har1eyk/Bradford-Assay-Protein-Quant-with-One-Phase-Assoc/master/images/one.phase.association.equations.solving.for.x.jpg)
+
 However, Wolfram Alpha has a different solution (above). Both solutions should be similar but there are differences for which I cannot yet account.
 
 
