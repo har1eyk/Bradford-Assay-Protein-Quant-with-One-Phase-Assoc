@@ -68,3 +68,4 @@ The data and Excel equations can be found in the Excel workbook in this reposito
 ## Future Directions
 1. In the future I'd like to use scipy [optimize curve fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) to conduct least squares so that Excel and GraphPad will be unnecessary. **Done** [See Notebook in this repository.]
 1. I'd also like to explore [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3164080/) and linearization for the lower ends of the quantification
+1. Make a website so that values can be parsed and curve generated. Unknown samples can be easily interpolated.
