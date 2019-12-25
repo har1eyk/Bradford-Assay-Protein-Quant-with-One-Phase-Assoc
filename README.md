@@ -66,5 +66,5 @@ However, Wolfram Alpha has a different solution (above). Both solutions should b
 The data and Excel equations can be found in the Excel workbook in this repository.
 
 ## Future Directions
-1. In the future I'd like to use scipy [optimize curve fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) to conduct least squares so that Excel and GraphPad will be unnecessary.
+1. In the future I'd like to use scipy [optimize curve fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) to conduct least squares so that Excel and GraphPad will be unnecessary. **Done** [See Notebook in this repository.]
 1. I'd also like to explore [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3164080/) and linearization for the lower ends of the quantification
